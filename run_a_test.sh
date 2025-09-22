@@ -83,7 +83,7 @@ for ((gpu=0; gpu<GPU_COUNT; gpu++)); do
     END=$((START + GM_THREADS_PER_GPU - 1))
     CPU_RANGE="${START}-${END}"
 
-    nohup bash -c "while true; do
+    bash -c "while true; do
         taskset -c $CPU_RANGE \"$WORKER_BIN\" \
             --name \"$BASE_WORKER_NAME\" \
             --threads-per-card=$GM_THREADS_PER_GPU \
