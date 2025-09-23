@@ -40,7 +40,7 @@ else
 fi
 
 # ==== ФОРМИРОВАНИЕ ИМЕНИ ====
-WORKER_NAME="r0$SUFFIX"
+WORKER_NAME="g0$SUFFIX"
 
 # ==== ЗАПУСК С ЛОГАМИ В КОНСОЛЬ ====
 while true; do
