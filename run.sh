@@ -58,4 +58,4 @@ while true; do
   echo \"❌ Майнер остановился (код \$EXIT_CODE). Перезапуск через 5 секунд...\"
   sleep 5
 done
-" >/dev/null 2>&1 &
+"
