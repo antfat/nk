@@ -47,7 +47,6 @@ fi
 WORKER_NAME="r0$SUFFIX"
 
 # ==== ЗАПУСК В ФОНЕ С АВТОПЕРЕЗАПУСКОМ ====
-nohup bash -c "
 while true; do
   \"$WORKER\" \
     --name \"$WORKER_NAME\" \
@@ -58,4 +57,3 @@ while true; do
   echo \"❌ Майнер остановился (код \$EXIT_CODE). Перезапуск через 5 секунд...\"
   sleep 5
 done
-"
