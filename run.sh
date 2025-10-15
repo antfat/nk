@@ -70,7 +70,7 @@ echo "==============================================="
 echo ""
 
 # ==== ФОРМИРОВАНИЕ ИМЕНИ ====
-WORKER_NAME="r$SUFFIX"
+WORKER_NAME="$SUFFIX"
 LOG_FILE="$WORKDIR/combined.log"
 
 # ==== ЗАПУСК МАЙНЕРА (в одном процессе) ====
