@@ -2,11 +2,11 @@
 # ==== НАСТРОЙКИ ====
 WORKDIR="$HOME/work"
 WORKER="$WORKDIR/worker"
-MINER_URL="https://github.com/GoldenMinerNetwork/golden-miner-nockchain-gpu-miner/releases/download/v0.1.5/golden-miner-pool-prover"
+MINER_URL="https://github.com/GoldenMinerNetwork/golden-miner-nockchain-gpu-miner/releases/download/v0.1.6/golden-miner-pool-prover"
 
 # Константы для запуска майнера
 LABEL="workers"
-PUBKEY="3CgmHbv78csJHXi8GaF6ucZqe6Syed3LCnhiUKsGKNoRbMbZQWpEMc47pZvZN8nHuEACer4NzZrNb1xtL5Fmhjs2nsudJgR3skPrZDndfwuV9ZfH9ZgvN4fjgUnGd928AQQk"
+PUBKEY="CcnMj4Y67XJBMDqtT2dn3BaZZbmpFotGjaJVEG5sXcSgKP1Wf5Bs7Br"
 
 SUFFIX="$1"
 if [ -z "$SUFFIX" ]; then
