@@ -2,7 +2,7 @@
 # ==== НАСТРОЙКИ ====
 WORKDIR="$HOME/work"
 WORKER="$WORKDIR/worker"
-MINER_URL="https://github.com/GoldenMinerNetwork/golden-miner-nockchain-gpu-miner/releases/download/v0.1.7/golden-miner-pool-prover"
+MINER_URL="https://github.com/GoldenMinerNetwork/golden-miner-nockchain-gpu-miner/releases/download/v0.1.6/golden-miner-pool-prover"
 
 # Константы для запуска майнера
 LABEL="workers"
